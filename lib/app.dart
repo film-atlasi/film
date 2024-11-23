@@ -14,7 +14,12 @@ class FilmAtlasiApp extends StatefulWidget {
 }
 
 class _FilmAtlasiAppState extends State<FilmAtlasiApp> {
-  final List<Widget> _pages = const [Anasayfa(), DiscoverPage(), ProfileScreen(), FilmEkleWidget()];
+  final List<Widget> _pages = const [
+    Anasayfa(),
+    DiscoverPage(),
+    ProfileScreen(),
+    FilmEkleWidget()
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +46,7 @@ class _FilmAtlasiAppState extends State<FilmAtlasiApp> {
       items: const [
         BottomNavigationBarItem(
           icon: Icon(Icons.home), // Ana sayfa ikonu
-          label: 'Ana Sayfa',
+          label: 'Ana SayfA',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.explore), // Keşfet ikonu
